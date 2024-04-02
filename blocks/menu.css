@@ -8,8 +8,10 @@
 }
 
 .menu__title {
+  max-width: 780px;
   text-align: center;
-  margin: 0 0 24px;
+  margin: 0 auto;
+  margin-bottom: 24px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -18,9 +20,11 @@
 }
 
 .menu__subtitle {
+  max-width: 780px;
   text-align: center;
-  margin: 0 0 100px;
-  font-family: "Noto Serif";
+  margin: 0 auto;
+  margin-bottom: 100px;
+  font-family: "Noto Serif", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -35,44 +39,4 @@
   padding: 0;
   margin: 0;
   list-style-type: none;
-}
-
-.card {
-  width: 540px;
-}
-
-.card__title {
-  margin: 0 0 32px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
-}
-
-.card__list {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  max-width: 540px;
-}
-
-.card__list-item {
-  display: flex;
-  margin-bottom: 16px;
-  font-family: "Noto Serif";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.card__list-item:last-child {
-  margin-bottom: 0;
-}
-
-.card__list-divider {
-  border-bottom: 1px solid black;
-  flex-grow: 1;
-  margin: 0 8px 0;
 }
