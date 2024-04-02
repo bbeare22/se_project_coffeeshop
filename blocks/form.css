@@ -11,8 +11,8 @@
 .form__label {
   margin-bottom: 32px;
   display: block;
-  font-family: "Inter";
-  font-style: normal, Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -40,8 +40,12 @@
   line-height: 30px;
 }
 
-.form__input_placeholder {
+.form__input::placeholder {
   color: #838383;
+  padding: 12px;
+}
+
+.form__input[type="datetime-local"] {
   padding: 12px;
 }
 

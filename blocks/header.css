@@ -31,7 +31,7 @@
   z-index: 1;
   max-width: 683px;
   margin: 28px 0 0;
-  font-family: "Noto Serif", Arial, sans-serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -40,7 +40,7 @@
 
 .header__span-accent {
   display: block;
-  font-family: "Noto Serif", Arial, sans-serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -71,4 +71,8 @@
   line-height: 20px;
   color: #838383;
   margin: 0;
+}
+
+.header__paragraph:last-child {
+  margin-top: auto;
 }
